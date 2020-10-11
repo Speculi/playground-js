@@ -8,5 +8,8 @@
         "build": "node modern.js"
     },
     "author": "Christoph Schaefer",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "node-fetch": "^2.6.1"
+    }
 }
