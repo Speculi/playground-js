@@ -1,10 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
    <head>
-      <meta charset="utf-8">
-      <title>CSS Grid</title>
-   </head>
-   <body>
-      
-   </body>
-</html>
+    <meta charset="utf-8">
+    <title>CSS Grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        #parent {
+            background: rgba(0, 0, 0, .5);
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr 1fr 50px;
+        }
+
+        .child1 {
+            background: skyblue;
+        }
+
+        .child2 {
+            background: powderblue;
+        }
+
+        .child3 {
+            background: cadetblue;
+        }
+
+        .child4 {
+            background: indianred;
+        }
+
+        .child5 {
+            background: salmon;
+        }
+
+        .child6 {
+            background: firebrick;
+        }
+
+        .footer {
+            background: green;
+            text-align: center;
+            grid-column: 1 / -1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="parent">
+        <div class="child1">
+            Bilge water grog barkadeer bowsprit hulk boatswain measured fer yer chains topmast weigh anchor galleon. Fore bucko Privateer warp hail-shot interloper swing the lead Pieces of Eight fire ship Buccaneer. Nelsons folly take a caulk gibbet mizzenmast spike crimp fire in the hole black jack Sink me flogging.
+        </div>
+        <div class="child2">
+            Aye spyglass bucko rigging swab booty gangplank reef scuttle handsomely. Long boat line spike Letter of Marque Brethren of the Coast gangplank deadlights Shiver me timbers strike colors stern. Lanyard knave reef sutler reef sails spanker ho gun wench log.
+        </div>
+        <div class="child3">
+            Come about squiffy bilge mizzenmast yawl spike execution dock hands keelhaul Blimey. Chase guns maroon cutlass transom black spot swab main sheet yawl driver squiffy. Bilge rat fire in the hole come about gunwalls avast snow matey dance the hempen jig shrouds draft.
+        </div>
+
+        <div class="child4">4</div>
+        <div class="child5">5</div>
+        <div class="child6">6</div>
+        <div class="footer">Footer Text</div>
+
+    </div>
+
+</body></html>
